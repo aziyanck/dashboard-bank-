@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="output.css">
+</head>
+
+<body class="bg-[#262834] h-[100vh] w-[100vw]">
+    <section id="header"
+        class="flex justify-between [&>*]:m-5 h-[10vh] [box-shadow:0_2px_0px_rgba(82,84,94,1.0)] relative z-50">
+        <div class="w-[max-content] flex justify-center items-center m-5 ">
+            <img src="assets/logo.png" class="logo h-[90%] mr-4" alt="">
+        <h1 class="font-black text-white">Bank Name</h1>
+        </div>
+
+        <h6 class="name poppins-regular self-center text-white style">Name of user</h6>
+    </section>
+    <section id="main" class="h-[90vh] w-[100vw] grid grid-cols-[max-content_auto_max-content]">
+        <div class="left [box-shadow:2px_0px_0px_rgba(82,84,94,1.0)] max-w-[max-content]">
+            <div class="left_panel flex flex-col [&>*]:text-white [&_p:has(i)]:cursor-pointer m-4 pr-4">
+                <div class="home">
+                    <p><i class="fa-solid fa-house"></i> Dashboard</p>
+                </div>
+
+                <div class="analytics">
+                    <p class="text-gray-400">ANALYTICS</p>
+                    <p><i class="fa-solid fa-bolt"></i> Performance</p>
+
+                    <p><i class="fa-brands fa-hotjar"></i> Hotjar</p>
+                </div>
+                <div class="support">
+                    <p class="text-gray-400">SUPPORTS</p>
+                    <p><i class="fa-solid fa-ticket"></i> Tickets</p>
+                    <p><i class="fa-solid fa-user"></i> Agents</p>
+                    <p><i class="fa-solid fa-users"></i> Customers</p>
+                </div>
+                <div class="shop">
+                    <p class="text-gray-400">SHOP</p>
+                    <p><i class="fa-solid fa-cart-shopping"></i> Products</p>
+                    <p><i class="fa-solid fa-bag-shopping"></i> Order</p>
+                    <p><i class="fa-solid fa-flag"></i> Reports</p>
+                </div>
+            </div>
+        </div>
+        <div class="middle h-[100%] ">
+            <div
+                class=" p-4 m-4 border flex flex-col border-[rgba(82,84,94,1.0)] border-2 rounded-2xl w[100%] h-[100%]">
+                <div class="inventory-details flex flex-col p-4">
+                    <h1 class="poppins-bold text-white mb-4">Inventory Details</h1>
+
+                    <div
+                        class="card w-[100%] h-[180px] rounded-2xl overflow-hidden flex text-sm font-[Poppins] self-center ">
+                        <div class="bg-gray-100 w-[50%] p-6 flex flex-col justify-between">
+                            <div class="text-gray-700 font-medium">Your balance:</div>
+                            <div class="text-3xl font-bold text-gray-900">$25,330</div>
+                            <div class="text-gray-500">3 cards</div>
+                        </div>
+
+                        <div class="bg-green-400 w-[50%] relative flex items-end justify-end p-4">
+                            <button
+                                class="bg-white text-sm font-semibold rounded-full px-4 py-2 flex items-center gap-1 shadow-md cursor-pointer">
+                                Details <span>→</span>
+                            </button>
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <div class="inventory2 ">
+                    <h1 class="poppins-bold text-white ml-4 mt-4">Inventory Details</h1>
+
+                    <div class="cards flex flex-wrap">
+                        <!-- card 1 -->
+                        <div
+                            class="w-[300px] h-[180px] rounded-xl overflow-hidden bg-[#E9D7FE] text-sm font-[Poppins] shadow-md flex flex-col justify-between cursor-pointer hover:scale-105 m-4">
+
+                            <div class="p-4 flex justify-between items-start">
+                                <div class="flex flex-col gap-1">
+                                    <p class="font-semibold text-gray-800">Shopping Card</p>
+                                    <p class="text-gray-500 font-medium">NAME</p>
+                                </div>
+
+                                <div class="w-6 h-6  rounded-sm flex items-center justify-center text-gray-500 text-sm">
+                                    <i class="fa-solid fa-microchip"></i> 
+                                </div>
+                            </div>
+
+                            <div class="px-4 pb-2 text-gray-500 text-xs font-medium flex justify-between">
+                                <span></span>
+                                <span>Exp 26/6</span>
+                            </div>
+                            <div
+                                class="bg-[#B692F6] text-black px-4 py-3 flex justify-between items-center text-base font-semibold tracking-wider">
+                                <span>****** 0928</span>
+                                <span class="font-bold">VISA</span>
+                            </div>
+                        </div>
+                        <!-- card2 -->
+                        <div
+                            class="w-[300px] h-[180px] rounded-xl overflow-hidden bg-[#E9D7FE] text-sm font-[Poppins] shadow-md flex flex-col justify-between m-4 cursor-pointer hover:scale-105">
+
+                            <div class="p-4 flex justify-between items-start">
+                                <div class="flex flex-col gap-1">
+                                    <p class="font-semibold text-gray-800">Shopping Card</p>
+                                    <p class="text-gray-500 font-medium">NAME</p>
+                                </div>
+
+                                <div class="w-6 h-6  rounded-sm flex items-center justify-center text-gray-500 text-sm">
+                                    <i class="fa-solid fa-microchip"></i> 
+                                </div>
+                            </div>
+
+                            <div class="px-4 pb-2 text-gray-500 text-xs font-medium flex justify-between">
+                                <span></span>
+                                <span>Exp 26/6</span>
+                            </div>
+                            <div
+                                class="bg-[#B692F6] text-black px-4 py-3 flex justify-between items-center text-base font-semibold tracking-wider">
+                                <span>****** 0928</span>
+                                <span class="font-bold">VISA</span>
+                            </div>
+                        </div>
+                        <!-- card add  -->
+                        <div
+                            class="w-[300px] h-[180px] rounded-xl text-sm font-[Poppins] shadow-md flex flex-col justify-center items-center border-2 border-[rgba(82,84,94,1.0)] border-dashed m-4 text-white cursor-pointer hover:scale-105 hover:bg-[#52545ea1] ">
+                            <p class="font-semibold cursor-pointer"><i class="fa-solid fa-plus"></i>Add Card</p>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- summamry table -->
+                <div class="summary"></div>
+            </div>
+        </div>
+        <div class="right [box-shadow:-2px_0px_0px_rgba(82,84,94,1.0)] w-[max-content] text-white">
+            <div
+                class=" p-4 m-4 border flex flex-col border-[rgba(82,84,94,1.0)] border-2 rounded-2xl w[100%] h-[100%]">
+                <div class="card-det flex flex-col h-[40vh] p-4">
+                    <h1 class="poppins-bold text-white mb-4">Card Details</h1>
+
+                    <div class="et-card  h-[300px] w-[180px] p-10 flex flex-col items-center justify-center">
+
+                        <!-- card det -->
+                        <div
+                            class="w-[300px] h-[180px] rounded-xl overflow-hidden bg-[#E9D7FE] text-sm font-[Poppins] shadow-md flex flex-col justify-between cursor-pointer hover:scale-105 m-4 rotate-270">
+
+                            <div class="p-4 flex justify-between items-start">
+                                <div class="flex flex-col gap-1">
+                                    <p class="font-semibold text-gray-800">Shopping Card</p>
+                                    <p class="text-gray-500 font-medium">NAME</p>
+                                </div>
+
+                                <div class="w-6 h-6  rounded-sm flex items-center justify-center text-gray-500 text-sm">
+                                    <i class="fa-solid fa-microchip"></i>
+                                </div>
+                            </div>
+
+                            <div class="px-4 pb-2 text-gray-500 text-xs font-medium flex justify-between">
+                                <span></span>
+                                <span>Exp 26/6</span>
+                            </div>
+                            <div
+                                class="bg-[#B692F6] text-black px-4 py-3 flex justify-between items-center text-base font-semibold tracking-wider">
+                                <span>****** 0928</span>
+                                <span class="font-bold">VISA</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h3 class="font-semibold mt-9">Card Number</h3>
+                    <h1 class="poppins-bold text-white mb-4">**** 1234 4567 7890</h1>
+
+                    <div class="flex justify-between text-sm text-gray-300">
+
+                        <div class="flex flex-col px-2 border-r border-gray-600 pr-6">
+                            <span class="text-xs font-semibold">EXPIRE DATE</span>
+                            <span class="text-white font-bold text-sm mt-1">08/28</span>
+                        </div>
+
+                        <div class="flex flex-col px-2 ">
+                            <span class="text-xs font-semibold">CVV</span>
+                            <span class="text-white font-bold text-sm mt-1">08/28</span>
+                        </div>
+
+                        <div class="flex flex-col px-2 border-l border-gray-600 pl-6">
+                            <span class="text-xs font-semibold">LEVEL</span>
+                            <span class="text-white font-bold text-sm mt-1">02</span>
+                        </div>
+
+                    </div>
+
+                    <hr class="mt-6">
+
+                    <div class=" text-white  w-[300px] rounded-lg font-[Poppins] mt-6">
+                        <p class="font-semibold text-lg">Spending limits</p>
+                        <p class="text-sm text-gray-400 mt-1">DAILY TRANSACTION LIMIT</p>
+
+                        <!-- bar -->
+                        <div class="mt-2 w-full h-3 bg-white rounded-full overflow-hidden">
+                            <div class="h-full bg-green-500" style="width: 20%;"></div> <!-- 400/2000 = 20% -->
+                        </div>
+
+                        <p class="text-sm mt-2">$400 <span class="text-gray-300">spent of $2000</span></p>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+
+</html>
