@@ -16,17 +16,17 @@
     <link rel="stylesheet" href="output.css">
 </head>
 
-<body class="bg-[#262834] h-[100vh] w-[100vw]">
+<body class="bg-[#262834] h-[100vh] min-w-screen">
     <section id="header"
-        class="flex justify-between [&>*]:m-5 h-[10vh] [box-shadow:0_2px_0px_rgba(82,84,94,1.0)] relative z-50">
+        class="flex justify-between [&>*]:m-5 h-[10vh] border-b-2 border-[rgba(82,84,94,1.0)] z-50">
         <div class="w-[max-content] flex justify-center items-center m-5 ">
             <img src="assets/logo.png" class="logo h-[90%] mr-4" alt="">
-        <h1 class="font-black text-white">Bank Name</h1>
+            <h1 class="font-black text-white">Bank Name</h1>
         </div>
 
         <h6 class="name poppins-regular self-center text-white style">Name of user</h6>
     </section>
-    <section id="main" class="h-[90vh] w-[100vw] grid grid-cols-[max-content_auto_max-content]">
+    <section id="main" class="h-[90vh] max-w-screen  grid grid-cols-[max-content_auto_max-content]">
         <div class="left [box-shadow:2px_0px_0px_rgba(82,84,94,1.0)] max-w-[max-content]">
             <div class="left_panel flex flex-col [&>*]:text-white [&_p:has(i)]:cursor-pointer m-4 pr-4">
                 <div class="home">
@@ -93,7 +93,7 @@
                                 </div>
 
                                 <div class="w-6 h-6  rounded-sm flex items-center justify-center text-gray-500 text-sm">
-                                    <i class="fa-solid fa-microchip"></i> 
+                                    <i class="fa-solid fa-microchip"></i>
                                 </div>
                             </div>
 
@@ -118,7 +118,7 @@
                                 </div>
 
                                 <div class="w-6 h-6  rounded-sm flex items-center justify-center text-gray-500 text-sm">
-                                    <i class="fa-solid fa-microchip"></i> 
+                                    <i class="fa-solid fa-microchip"></i>
                                 </div>
                             </div>
 
