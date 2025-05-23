@@ -130,10 +130,7 @@ i {
     max-width: 1024px;
   }
 
-  #main {
-    transform: scale(0.8);
-    transform-origin: top left;
-  }
+
 
 }
 
